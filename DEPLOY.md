@@ -1,5 +1,8 @@
 # Deploying the portfolio
 
+**Status: live at <https://roxsmb.github.io/>** — published from
+`Roxsmb/Roxsmb.github.io`, branch `main`, folder `/ (root)`.
+
 The site is plain static HTML/CSS/JS. `index.html` in the repository root is
 the page, and `assets/` holds every stylesheet, script, font and image. There
 is no build step and no package manager.
