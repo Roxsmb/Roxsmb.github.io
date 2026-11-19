@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://roxsmb.github.io/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <image:image>
+      <image:loc>https://roxsmb.github.io/assets/work/elias-gameready-3d-character-cover-1600.webp</image:loc>
+      <image:title>Elias — game-ready 3D character</image:title>
+      <image:caption>Rigged steampunk character with PBR textures and a walk cycle, built for Unreal Engine.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://roxsmb.github.io/assets/work/erlikhan-3d-character-environment-cover-1600.webp</image:loc>
+      <image:title>Erlikhan — high-poly 3D character sculpt</image:title>
+      <image:caption>Fantasy character sculpt built around a heavy silhouette, with fur, leather and skull detail.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://roxsmb.github.io/assets/work/junk-collector-robot-character-cover-1600.webp</image:loc>
+      <image:title>Saxophone Robot — stylized 3D character</image:title>
+      <image:caption>Saxophone-playing robot character created for a graduation short film.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://roxsmb.github.io/assets/work/junk-collector-and-his-robot-cover-1600.webp</image:loc>
+      <image:title>The Junk Collector and His Robot — stylized 3D character</image:title>
+      <image:caption>Second character for the animated graduation film, sculpted in ZBrush, retopologised in Maya and rigged.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://roxsmb.github.io/assets/work/animation-reel-cover-1600.webp</image:loc>
+      <image:title>Animation — game animation studies</image:title>
+      <image:caption>Walk, run and idle cycles for a mannequin rig, animated for Unreal Engine.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://roxsmb.github.io/assets/work/industrial-city-3d-environment-cover-1600.webp</image:loc>
+      <image:title>Industrial City — 3D environment and lighting</image:title>
+      <image:caption>Low-poly environment and lighting pass created for a short film.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://roxsmb.github.io/assets/work/tfhdb-film-cover-800.webp</image:loc>
+      <image:title>TFHDB — short film</image:title>
+      <image:caption>Cover still from TFHDB, a short film by Emre Melik Nameli, playable on the portfolio's DVD bay.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://roxsmb.github.io/assets/tailref-studio-reference-board-demo.gif</image:loc>
+      <image:title>TailRef Studio — reference board for artists</image:title>
+      <image:caption>Reference board with layers, mirroring, a Pose3D viewport and local .tail files.</image:caption>
+    </image:image>
+  </url>
+</urlset>

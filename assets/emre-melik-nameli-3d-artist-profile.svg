@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-label="ROXSMB personnel record: independent artist and developer. Disciplines: 3D art, character art, animation, creative tools, game development. Software: ZBrush, Autodesk Maya, Substance Painter, Unreal Engine.">
+  <title>ROXSMB / Personnel File / M-2442</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070A0B"/>
+      <stop offset="0.6" stop-color="#050708"/>
+      <stop offset="1" stop-color="#030505"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="48%" r="72%">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.66" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9FFFF0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9FFFF0" stop-opacity="0.055"/>
+      <stop offset="1" stop-color="#9FFFF0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.022"/>
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.012"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000000" opacity="0.16"/>
+    </pattern>
+    <clipPath id="screen">
+      <rect x="15" y="15" width="930" height="370"/>
+    </clipPath>
+    <style>
+      .mono { font-family: 'IBM Plex Mono', 'Cascadia Mono', 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace; }
+      .lbl  { font-size: 10px; fill: #7E9290; letter-spacing: 1.6px; }
+      .val  { font-size: 15px; fill: #D6E6DF; }
+      .item { font-size: 15px; fill: #C6D7D1; }
+      .micro { font-size: 9px; fill: #56696A; letter-spacing: 1.3px; }
+      .sweep { animation: sweep 9s linear infinite; }
+      .flicker { animation: flicker 6s ease-in-out infinite; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; }
+      @keyframes sweep { from { transform: translateY(-150px); } to { transform: translateY(430px); } }
+      @keyframes flicker { 0%,100% { opacity: 0.018; } 42% { opacity: 0.05; } 46% { opacity: 0.008; } 68% { opacity: 0.038; } }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.32; } }
+      @media (prefers-reduced-motion: reduce) {
+        .sweep, .flicker, .pulse { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- screen -->
+  <rect width="960" height="400" fill="url(#bg)"/>
+  <rect x="14.5" y="14.5" width="931" height="371" fill="#070A0B" stroke="#2A393B"/>
+  <rect x="18.5" y="18.5" width="923" height="363" fill="none" stroke="#101617"/>
+
+  <!-- mechanical corner marks -->
+  <g stroke="#3A4A4C" stroke-width="1" fill="none">
+    <path d="M24 40V24H40M920 24H936V40M24 360V376H40M920 376H936V360"/>
+  </g>
+
+  <!-- header -->
+  <g class="mono">
+    <rect x="30" y="32" width="6" height="6" fill="#5FE39B" class="pulse"/>
+    <text x="44" y="39" font-size="11" fill="#E9F4EE" letter-spacing="1.4">M-2442</text>
+    <text x="108" y="39" font-size="10" fill="#7E9290" letter-spacing="1.5">PERSONNEL FILE</text>
+    <text x="928" y="39" font-size="9" fill="#56696A" text-anchor="end" letter-spacing="1.6">SEC.05 / 09</text>
+    <line x1="24" y1="52" x2="936" y2="52" stroke="#1B2628"/>
+    <line x1="24" y1="52" x2="150" y2="52" stroke="#2B7354"/>
+  </g>
+
+  <!-- identity -->
+  <g class="mono">
+    <text x="34" y="82" class="lbl">IDENTITY / VERIFIED</text>
+
+    <g opacity="0.16">
+      <text x="28.4" y="150" font-size="72" font-weight="600" fill="#63D6D3" letter-spacing="6">ROXSMB</text>
+      <text x="31.6" y="150" font-size="72" font-weight="600" fill="#E3A24A" letter-spacing="6">ROXSMB</text>
+    </g>
+    <text x="30" y="150" font-size="72" font-weight="600" fill="#F0FAF4" letter-spacing="6">ROXSMB</text>
+
+    <text x="35" y="184" font-size="15" fill="#63D6D3" letter-spacing="2.8">INDEPENDENT ARTIST &amp; DEVELOPER</text>
+
+    <line x1="34" y1="206" x2="926" y2="206" stroke="#1B2628"/>
+
+    <text x="34" y="230" class="lbl">ID</text>
+    <text x="34" y="252" class="val">ROXSMB</text>
+    <text x="264" y="230" class="lbl">DIVISION</text>
+    <text x="264" y="252" class="val">CREATIVE SYSTEMS</text>
+    <text x="514" y="230" class="lbl">CLEARANCE</text>
+    <text x="514" y="252" class="val">LEVEL 04</text>
+    <text x="724" y="230" class="lbl">STATUS</text>
+    <circle cx="728" cy="247" r="3.2" fill="#5FE39B" class="pulse"/>
+    <text x="741" y="252" class="val" fill="#5FE39B">ACTIVE</text>
+
+    <line x1="34" y1="272" x2="926" y2="272" stroke="#1B2628"/>
+  </g>
+
+  <!-- disciplines + software -->
+  <line x1="534" y1="286" x2="534" y2="354" stroke="#1B2628"/>
+  <g class="mono">
+    <text x="34" y="296" class="lbl">DISCIPLINES</text>
+    <text x="34" y="322" class="item">3D ART / CHARACTER ART / ANIMATION</text>
+    <text x="34" y="348" class="item">CREATIVE TOOLS / GAME DEVELOPMENT</text>
+
+    <text x="560" y="296" class="lbl">SOFTWARE</text>
+    <text x="560" y="322" class="item">ZBrush / Autodesk Maya</text>
+    <text x="560" y="348" class="item">Substance Painter / Unreal Engine</text>
+  </g>
+
+  <!-- CRT overlays -->
+  <g clip-path="url(#screen)" pointer-events="none">
+    <rect width="960" height="400" fill="url(#glass)"/>
+    <rect class="sweep" x="0" y="0" width="960" height="120" fill="url(#sweep)"/>
+    <rect width="960" height="400" fill="url(#scan)"/>
+    <rect width="960" height="400" fill="url(#vignette)"/>
+    <rect class="flicker" width="960" height="400" fill="#000000" opacity="0.02"/>
+  </g>
+</svg>

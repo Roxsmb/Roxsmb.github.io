@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, follow" />
+<meta name="description" content="Page not found. Return to the portfolio of Emre Melik Nameli (ROXSMB), 3D character artist." />
+<meta name="theme-color" content="#06090a" />
+<meta name="color-scheme" content="dark" />
+<title>404 — signal lost · Emre Melik Nameli (ROXSMB)</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="preload" href="/assets/fonts/jetbrains-mono-var.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/assets/fonts/space-grotesk-var.woff2" as="font" type="font/woff2" crossorigin />
+<style>
+  @font-face {
+    font-family: "JetBrains Mono";
+    src: url("/assets/fonts/jetbrains-mono-var.woff2") format("woff2");
+    font-weight: 100 800;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Space Grotesk";
+    src: url("/assets/fonts/space-grotesk-var.woff2") format("woff2");
+    font-weight: 300 700;
+    font-display: swap;
+  }
+  :root {
+    --bg: #06090a;
+    --line: rgba(233, 244, 238, .1);
+    --text: #e9f4ee;
+    --muted: #7c8f8a;
+    --accent: #5fe39b;
+    --mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    background-image: radial-gradient(60% 50% at 50% 0%, rgba(95, 227, 155, .12), transparent 70%);
+  }
+  .box { max-width: 44ch; }
+  .label { display: flex; align-items: center; gap: .6rem; font-size: .68rem; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); }
+  .label::before { content: ""; width: 6px; height: 6px; background: var(--accent); box-shadow: 0 0 12px var(--accent); }
+  h1 { font-family: "Space Grotesk", system-ui, sans-serif; font-size: clamp(1.6rem, 6vw, 2.6rem); line-height: 1.05; letter-spacing: -.03em; margin: 1.4rem 0 1rem; font-weight: 600; }
+  p { margin: 0 0 2rem; color: var(--muted); font-size: .72rem; letter-spacing: .12em; line-height: 2; text-transform: uppercase; }
+  a { display: inline-flex; align-items: center; gap: .5rem; padding: .8rem 1.1rem; border: 1px solid var(--line); color: var(--text); text-decoration: none; font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; transition: border-color .3s, color .3s; }
+  a:hover { border-color: var(--accent); color: var(--accent); }
+  .path { color: var(--accent); }
+</style>
+</head>
+<body>
+  <main class="box">
+    <p class="label">Error 404 · signal lost</p>
+    <h1>This route is not in the terminal.</h1>
+    <p>The page <span class="path" id="path"></span> does not exist. Nothing was lost — everything else is one jump away.</p>
+    <a href="/">← Return to portfolio</a>
+  </main>
+  <script>
+    document.getElementById("path").textContent = location.pathname;
+  </script>
+</body>
+</html>

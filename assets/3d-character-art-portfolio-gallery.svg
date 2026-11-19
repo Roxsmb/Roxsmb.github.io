@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="56" viewBox="0 0 960 56" role="img" aria-label="Reference corner: three selected works from the ArtStation portfolio.">
+  <title>Reference Corner / M-2442</title>
+  <defs>
+    <linearGradient id="rh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070A0B"/>
+      <stop offset="1" stop-color="#050708"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'IBM Plex Mono', 'Cascadia Mono', 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace; }
+    </style>
+  </defs>
+
+  <rect width="960" height="56" fill="url(#rh)"/>
+  <rect x="0.5" y="0.5" width="959" height="55" fill="none" stroke="#1B2628"/>
+
+  <g class="mono">
+    <rect x="22" y="24" width="6" height="6" fill="#5FE39B"/>
+    <text x="36" y="32" font-size="11" fill="#E9F4EE" letter-spacing="1.4">M-2442</text>
+    <text x="110" y="32" font-size="9" fill="#7E9290" letter-spacing="1.5">REFERENCE CORNER</text>
+    <text x="930" y="32" font-size="9" fill="#56696A" text-anchor="end" letter-spacing="1.4">SELECTED TRANSMISSIONS / 06</text>
+    <line x1="0" y1="48" x2="960" y2="48" stroke="#1B2628"/>
+    <line x1="0" y1="48" x2="132" y2="48" stroke="#2B7354"/>
+  </g>
+</svg>

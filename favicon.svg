@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ROXSMB mark">
+  <rect width="64" height="64" fill="#070A0B"/>
+  <rect x="14.5" y="14.5" width="35" height="35" rx="3" fill="none" stroke="#1B2628" stroke-width="1"/>
+  <rect x="22" y="22" width="20" height="20" rx="1.5" fill="#5FE39B"/>
+  <rect x="29" y="29" width="6" height="6" fill="#070A0B"/>
+  <rect x="14.5" y="47" width="8" height="1" fill="#2B7354"/>
+</svg>
