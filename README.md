@@ -1,5 +1,9 @@
 # Emre Melik Nameli (ROXSMB)
 
+<div align="center">
+  <a href="https://roxsmb.github.io/"><img src="https://img.shields.io/badge/%E2%96%B6%20LIVE%20PORTFOLIO-roxsmb.github.io-f0a75e?style=for-the-badge&labelColor=06090a" alt="Open the live portfolio at roxsmb.github.io" /></a>
+</div>
+
 **3D character artist & creative tool developer.** I turn concept art into game-ready characters and Unreal Engine assets with **ZBrush**, **Maya**, **Substance Painter** and **TypeScript** tools like **TailRef Studio**.
 
 **[Live Portfolio](https://roxsmb.github.io/)** · **[ArtStation](https://www.artstation.com/emremeliknameli)** · **[Work With Me](#work-with-me)** · **[Selected Work](#selected-work)** · **[TailRef Studio](#tailref-studio)** · **[itch.io](https://roxsmb.itch.io/)** · **[LinkedIn](https://www.linkedin.com/in/emre-melik-nameli-1026a0224/)**
