@@ -41,8 +41,8 @@
     </image:image>
     <image:image>
       <image:loc>https://roxsmb.github.io/assets/tailref-studio-reference-board-demo.gif</image:loc>
-      <image:title>TailRef Studio — reference board for artists</image:title>
-      <image:caption>Reference board with layers, mirroring, a Pose3D viewport and local .tail files.</image:caption>
+      <image:title>TailRef Studio — reference, drawing and 3D pose studio</image:title>
+      <image:caption>Reference board, drawing workspace and Pose3D in one window, with palette extraction and a non-destructive FX stack.</image:caption>
     </image:image>
   </url>
 </urlset>
