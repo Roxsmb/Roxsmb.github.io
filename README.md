@@ -9,7 +9,7 @@ Source of **[roxsmb.github.io](https://roxsmb.github.io/)** — an interactive C
 ## What is on the page
 
 - **Work rail** — selected 3D characters and environments, each opening into the television set.
-- **TailRef Studio bay** — the reference-board tool, with a live demo loop.
+- **TailRef Studio bay** — the reference board, drawing workspace and Pose3D tool, with a live demo loop.
 - **DVD bay** — a case for the short film **TFHDB**; pressing it parks the portfolio and plays the film inside the TV.
 - **Dial, switch and lamp** — the interactive shell that ties the pieces together.
 
